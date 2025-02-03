@@ -12,6 +12,7 @@
   <body>
     <header>
       <h1>About Me</h1>
+      <a href="../index.html">Click here to go back to main page.</a>
     </header>
 
     <main>
@@ -23,6 +24,20 @@
           Finally, I then moved to the Bay Area, CA, and have been living there
           since then.
         </p>
+        <p>Here is a quote that I live by:</p>
+        <blockquote>
+          <p>
+            Live as if you were to die tomorrow. Learn as if you were to live
+            forever.
+          </p>
+          <p>- Mahama Gandhi</p>
+        </blockquote>
+        <cite
+          >quote source:
+          <a href="https://www.brainyquote.com/quotes/mahatma_gandhi_133995"
+            >Brainy Quote</a
+          ></cite
+        >
         <p>Here is a photo of me:</p>
         <picture>
           <source
@@ -31,6 +46,33 @@
           />
           <img src="../profile-picture.jpg" alt="Photo of Akshat Jain" />
         </picture>
+      </section>
+      <section>
+        <form action="">
+          <fieldset>
+            <legend>Contact Me!</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br /><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br /><br />
+
+            <label for="reason">Reason for contacting:</label>
+            <select id="reason" name="reason">
+              <optgroup label="Professional">
+                <option value="recruiter">Recruiter</option>
+                <option value="networking">Networking</option>
+              </optgroup>
+              <optgroup label="Personal">
+                <option value="hobbies">Discuss Hobbies</option>
+              </optgroup></select
+            ><br /><br />
+
+            <label for="add_info">Additional information:</label>
+            <textarea id="add_info" name="add_info"></textarea><br /><br />
+
+            <input type="submit" value="Send!" />
+          </fieldset>
+        </form>
       </section>
     </main>
 
