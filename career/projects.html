@@ -18,7 +18,7 @@
   <body>
     <header>
       <h1>Akshat Jain's Projects</h1>
-        <a href="../index.html">Click here to go back to main page.</a>
+      <a href="../index.html">Click here to go back to main page.</a>
     </header>
 
     <main>
@@ -97,7 +97,8 @@
         <p>
           Here is a cool piece of code from this project:
           <br />
-          <pre>
+        </p>
+        <pre>
 <code>print("Enter the link to a transcript/article:")
 url = input()
 load_dotenv()
@@ -105,8 +106,10 @@ extractor_api_key = os.getenv("EXTRACTOR_API_KEY")
 ex = Extractor(extractor_api_key)
 transcript = ex.getTranscript(url)</code>
         </pre>
-
-        This code uses a third party extractor library to extract the text from a given link article. This was the best free api we could find for this hackathon project.
+        <p>
+          This code uses a third party extractor library to extract the text
+          from a given link article. This was the best free api we could find
+          for this hackathon project.
         </p>
       </section>
       <hr />
@@ -135,8 +138,8 @@ transcript = ex.getTranscript(url)</code>
         <p>iFrame Preview of the website:</p>
         <iframe
           src="https://ajspotify.vercel.app/"
-          width="60%"
-          height="800px"
+          width="600"
+          height="800"
         ></iframe>
       </section>
 
