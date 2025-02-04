@@ -24,6 +24,10 @@
           Finally, I then moved to the Bay Area, CA, and have been living there
           since then.
         </p>
+        <p>
+          I only started going by
+          <abbr title="Akshat Jain">AJ</abbr> in college!
+        </p>
         <p>Here is a quote that I live by:</p>
         <blockquote>
           <p>
@@ -48,7 +52,8 @@
         </picture>
       </section>
       <section>
-        <form action="submit">
+        <h3>Form to contact me!</h3>
+        <form action="/personal/about.html">
           <fieldset>
             <legend>Contact Me!</legend>
             <label for="name">Name:</label>
@@ -67,9 +72,24 @@
               </optgroup></select
             ><br /><br />
 
+            <label for="coolness"
+              >How cool are you? This will not influence my response back to
+              you.</label
+            >
+            <input list="coolnesses" id="coolness" name="coolness" />
+            <datalist id="coolnesses">
+              <option value="Somewhat cool"></option>
+              <option value="Cool"></option>
+              <option value="Very cool"></option>
+              <option value="Almost as cool as Akshat Jain"></option>
+            </datalist>
+
+            <br /><br />
             <label for="add_info">Additional information:</label>
             <textarea id="add_info" name="add_info"></textarea><br /><br />
 
+            <label>Hit <kbd>Tab + Enter</kbd> to submit.</label>
+            <br /><br />
             <input type="submit" value="Send!" />
           </fieldset>
         </form>
